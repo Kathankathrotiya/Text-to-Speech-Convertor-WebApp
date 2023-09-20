@@ -1,0 +1,106 @@
+/* Body styles */
+body {
+  font-family: "Helvetica", sans-serif;
+  margin: 0;
+  padding: 20px;
+  background-color: #f3f3f3;
+}
+
+/* Heading styles */
+h1 {
+  text-align: center;
+  font-variant: small-caps;
+  color: #007bff; 
+  margin-bottom: 30px;
+  font-size: 30px;
+}
+
+/* Form styles */
+form {
+  max-width: 500px;
+  margin: 0 auto;
+  padding: 20px;
+  background-color: #ffffff;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Label and form input styles */
+label,
+select,
+input[type="submit"] 
+input[type="file"] {
+  display: block;
+  margin-bottom: 10px;
+  font-family: "Helvetica", sans-serif; 
+  font-size: 16px; 
+}
+
+/* File input styles */
+input[type="file"] {
+  margin-top: 10px;
+  padding: 10px; 
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  background-color: #f9f9f9;
+  transition: border-color 0.3s ease;
+}
+
+/* File input hover and focus styles */
+input[type="file"]:hover,
+input[type="file"]:focus {
+  border-color: #007bff; /* Change border color on hover and focus */
+  outline: none; /* Remove default outline on focus */
+  box-shadow: 0 0 5px rgba(0, 123, 255, 0.5); /* Add box shadow on focus */
+}
+
+/* Select styles */
+select {
+  width: 100%; 
+  padding: 10px; 
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  font-family: "Helvetica", sans-serif; 
+  font-size: 16px;
+  background-color: #f9f9f9; 
+  transition: border-color 0.3s ease;
+}
+
+/* Select hover and focus styles */
+select:hover,
+select:focus {
+  border-color: #007bff; 
+  outline: none; 
+  box-shadow: 0 0 5px rgba(0, 123, 255, 0.5); 
+}
+
+/* Submit button styles */
+input[type="submit"] {
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  padding: 10px 20px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  margin: 0 auto; 
+  text-align: center;
+  display: block; 
+  font-family: "Helvetica", sans-serif; 
+  font-size: 15px;
+}
+
+/* Submit button hover styles */
+input[type="submit"]:hover {
+  background-color: #0056b3;
+}
+
+/*Error message*/
+#my-value {
+  color:  #ff0000;
+  padding: 10px;
+  margin: 20px auto;
+  border-radius: 5px;
+  max-width: 500px;
+  text-align: center;
+}
