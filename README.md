@@ -11,6 +11,6 @@ This is a Flask-based web application that allows users to upload text, PDF, DOC
 - **Text-to-Speech:** Translated text is converted to speech using gTTS, providing users with downloadable audio files.
 
 ## ScreenShots
-![Screenshot 1](https://github.com/Kathankathrotiya/Text-to-Speech-Convertor-WebApp/blob/main/Screenshot%202023-09-23%20204757.png)
-![Screenshot 2](https://github.com/Kathankathrotiya/Text-to-Speech-Convertor-WebApp/blob/main/Screenshot%202023-09-23%20204555.png)
+![Screenshot 1](https://github.com/Kathankathrotiya/Text-to-Speech-Convertor-WebApp/blob/main/Screenshot%202023-09-23%20204555.png)
+![Screenshot 2](https://github.com/Kathankathrotiya/Text-to-Speech-Convertor-WebApp/blob/main/Screenshot%202023-09-23%20204757.png)
 
